@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color:white;
+    background-color:rgb(54, 54, 54);
 }
 
 button{
@@ -10,7 +10,7 @@ button{
 
 .main-container{
     margin: auto;
-    background-color:white;
+    background-color:   #000000;
 }
 
 .heading{
@@ -18,7 +18,8 @@ button{
     margin-top: 2rem ;
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: rgb(31, 30, 30);
+    background-color: gray;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -36,6 +37,16 @@ p{
     outline: none;
     border: 0px;
 }
+.close-button{
+    cursor: pointer;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 0px;
+}
+
 
 .heading-btn-text{
     display: inline-block;
@@ -44,11 +55,12 @@ p{
 
 .popup-add-list-container{
     width: 22rem;
+     background-color: white;
     margin: auto;
 }
 
 .popup-add-list{
-    background-color: rgb(65, 252, 252);
+    background-color: white;
     height: 11rem;
     width: 22rem;
     border-radius: 1rem;
@@ -59,12 +71,13 @@ p{
     margin-top: 13%;
     display: none;
     z-index: 1;
-    border: 3px solid black;
+    border: 3px white;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+     box-shadow: 2px 6px 6px cadetblue,-2px -6px 6px cadetblue, 2px 6px 6px cadetblue,-2px -6px 6px cadetblue;
 }
 
 .blur-effect-add-list{
@@ -117,7 +130,8 @@ p{
     border-radius: 10px;
 }
 .close-btn-popup:hover{
-    background-color: blue;
+    background-color: white;
+    color:black;
 }
 
 .add-btn-popup{
@@ -130,7 +144,8 @@ p{
     border-radius: 10px;
 }
 .add-btn-popup:hover{
-    background-color: blue;
+    background-color: white;
+    color:black;
 }
 
 .card-list-container{
@@ -146,7 +161,7 @@ p{
 }
 
 .popup-add-task{
-    background-color: rgb(65, 252, 252));
+    background-color: rgb(92, 90, 90));
     height: 11rem;
     width: 22rem;
     border-radius: 1rem;
@@ -159,8 +174,9 @@ p{
     padding-top: 30px;
     text-align: center;
     z-index: 1;
-    border: 3px solid blue;
+    border: 3px solid gray;
     display: none;
+     box-shadow: 2px 6px 6px cadetblue,-2px -6px 6px cadetblue, 2px 6px 6px cadetblue,-2px -6px 6px cadetblue;
 }
 
 .blur-effect-task{
@@ -188,13 +204,15 @@ p{
 }
 
 .mark-done{
-    background-color:blue;
+    background-color:white;
     color: white;
+    background-color: black;
     font-size: 1rem;
     border-radius: 20px;
 }
 .mark-done:hover{
-    background-color: cornflowerblue;
+    background-color: white;
+    color:black;
 }
 
 .mark-done-clicked{
@@ -202,8 +220,9 @@ p{
 }
 
 .strike-content{
-    text-decoration: line-through;
-    color: white;
+   
+    color: black;
+    font-weight: bolder;
     justify-content: center;
 }
 
@@ -231,6 +250,7 @@ p{
     }
 
     .popup-add-list-container{
+
         width: 25rem;
     }
 

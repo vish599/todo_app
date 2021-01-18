@@ -2,10 +2,10 @@
     
     height: 23rem;
     width: 16rem;
-    background-color: lightseagreen;
-    border-radius: 15px;
+    background-color: white;
+    border-radius:15px;
     
-    box-shadow: 2px 6px 6px cadetblue,-2px -6px 6px cadetblue;
+    box-shadow: 2px 6px 6px cadetblue,-2px -6px 6px cadetblue, 2px 6px 6px cadetblue,-2px -6px 6px cadetblue;
     position: relative;
 }
 
@@ -27,7 +27,7 @@
     cursor: pointer;
     font-size: 2.5rem;
     font-weight: 700;
-    background-color: aqua;
+    background-color: white;
     outline: none;
     border: 0px;
 }
