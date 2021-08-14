@@ -4,6 +4,10 @@ var taskID
 var popUpAddList = document.querySelector(".popup-add-list");
 var add = document.querySelector(".add-button");
 add.addEventListener("click",()=>{
+     if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("harish").click();
+       }
     console.log("Clicked");
     popUpAddList.style.display = "block";
     
