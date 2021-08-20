@@ -3,9 +3,7 @@ getLocalStorage();
 var taskID 
 var popUpAddList = document.querySelector(".popup-add-list");
 var add = document.querySelector(".add-button");
-
 add.addEventListener("click",()=>{
-     
     console.log("Clicked");
     popUpAddList.style.display = "block";
     
