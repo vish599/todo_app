@@ -3,12 +3,7 @@ getLocalStorage();
 var taskID 
 var popUpAddList = document.querySelector(".popup-add-list");
 var add = document.querySelector(".add-button");
-input.addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) {
-     event.preventDefault();
-     document.getElementById("harish").click();
-    }
-  });
+
 add.addEventListener("click",()=>{
      
     console.log("Clicked");
